@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include<conio.h>
+int main(void)
+{
+    int inches = 0;
+    float feet = 0;
+
+    printf("Convert inches to feet\n");
+
+    {
+        printf("Input Length in inches: ");
+        scanf("%d", & inches);
+    }
+
+     feet = inches * 0.0833 ;
+
+    printf("feet = %f\n", feet);
+
+    printf("Convert feet to inches\n");
+
+    {
+        printf("Input Length in feet: ");
+        scanf("%f", & feet);
+    }
+
+     inches = feet * 12 ;
+
+    printf("inches = %d\n", inches);
+
+    return 0;
